@@ -31,3 +31,13 @@ React Runtime: Classic
     ```js
     React.createElement("h1", null, "Hi theres");
     ```
+
+https://jsx-notes.vercel.app/
+
+## Section 3 - Building with Reusable Components
+
+```sh
+npx create-react-app pdas
+```
+
+```sh
