@@ -1,10 +1,10 @@
 function ProfileCard({title, handle}) {
-    return (
+  return (
     <div>
         <div>Title is {title}</div>
         <div>Handle is {handle}</div>
     </div>
-    )
+  )
 }
 
 export default ProfileCard;
