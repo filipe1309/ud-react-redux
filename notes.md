@@ -19,3 +19,15 @@ cd jsx
 npm start
 ```
 
+## Section 2 - Building Content with JSX
+
+https://babeljs.io/repl
+React Runtime: Classic
+
+```html
+<h1>Hi theres</h1>
+```
+    
+    ```js
+    React.createElement("h1", null, "Hi theres");
+    ```
