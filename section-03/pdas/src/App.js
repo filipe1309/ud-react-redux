@@ -4,9 +4,9 @@ function App() {
     return (
         <div>
             <div>Personal Digital Assistants</div>
-            <ProfileCard text="Profile 1" />
-            <ProfileCard text="Profile 2" />
-            <ProfileCard text="Profile 3" />
+            <ProfileCard title="Alexa" handle="@alexa99" />
+            <ProfileCard title="Cortana" handle="@cortana32" />
+            <ProfileCard title="Siri" handle="@siri01" />
         </div>
     );
 }
