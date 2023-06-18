@@ -48,4 +48,17 @@ https://bulma.io/
 npm install bulma
 ```
 
-```js
+## Section 4 - State: How to Change Your App
+
+```sh
+npx create-react-app animals
+```
+
+```sh
+cd animals
+```
+
+```sh
+npm start
+```
+
