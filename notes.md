@@ -63,3 +63,9 @@ npm start
 ```
 
 https://react.dev/learn/responding-to-events
+
+- Use the state system when you want to update content on the screen
+- Calling 'useState' defines a new piece of state
+- The first argument to 'useState' is the initial value of the state
+- Updating state id done only using the setter function returned from 'useState'
+- Calling the setter function will rerender the component
