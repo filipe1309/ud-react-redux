@@ -1,14 +1,23 @@
 import { useState } from 'react';
 
+function getRandomAnimal() {
+  const animals = ['bird', 'cat', 'cow', 'dog', 'gator', 'horse'];
+  return animals[Math.floor(Math.random() * animals.length)];
+}
+
 function App() {
-  const [count, setCount] = useState(0)
+  const [animals, setAnimal] = useState([]);
 
-  const handleClick = () => setCount(count+1)
+  const handleClick = () => setAnimal([...animals, getRandomAnimal()]);
 
-  return (<div>
-    <button onClick={handleClick}>Add Animal</button>
-    <p>Count: {count}</p>
-  </div>);
+  return (
+    <div>
+      <button onClick={handleClick}>Add Animal</button>
+      <ul>
+        {animals.map((animal, idx) => <li key={idx}>{animal}</li>)}
+      </ul>
+    </div>
+  );
 }
 
 export default App;
