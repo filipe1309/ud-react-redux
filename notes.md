@@ -40,4 +40,12 @@ https://jsx-notes.vercel.app/
 npx create-react-app pdas
 ```
 
+https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
+
+https://bulma.io/
+
 ```sh
+npm install bulma
+```
+
+```js
