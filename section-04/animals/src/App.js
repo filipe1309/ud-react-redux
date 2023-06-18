@@ -1,6 +1,6 @@
+import './App.css';
 import { useState } from 'react';
 import AnimalShow from './AnimalShow';
-
 
 function getRandomAnimal() {
   const animals = ['bird', 'cat', 'cow', 'dog', 'gator', 'horse'];
@@ -17,11 +17,9 @@ function App() {
   const handleClick = () => setAnimal([...animals, getRandomAnimal()]);
 
   return (
-    <div>
+    <div className="app">
       <button onClick={handleClick}>Add Animal</button>
-      <div>
-        {renderedAnimals}
-      </div>
+      <div className="animal-list" >{renderedAnimals}</div>
     </div>
   );
 }
