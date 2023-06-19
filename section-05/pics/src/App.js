@@ -6,9 +6,10 @@ function App() {
   const [images, setImages] = useState([])
 
   const handleSubmit = (term) => {
-    searchImages(term).then((images) => {
-      setImages(images);
-    });
+    console.log('Searching for', term);
+    // searchImages(term).then((images) => {
+    //   setImages(images);
+    // });
   }
 
   return (
