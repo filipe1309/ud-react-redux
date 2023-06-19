@@ -69,3 +69,17 @@ https://react.dev/learn/responding-to-events
 - The first argument to 'useState' is the initial value of the state
 - Updating state id done only using the setter function returned from 'useState'
 - Calling the setter function will rerender the component
+
+## Section 5 - Using an API with React
+    
+```sh
+npx create-react-app pics
+```
+
+https://unsplash.com/developers
+
+https://unsplash.com/documentation#search-photos
+
+```sh
+npm install axios
+```
