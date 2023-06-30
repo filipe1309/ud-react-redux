@@ -13,7 +13,7 @@ function BookShow({ book, onDeleteBookById }) {
   }
 
   return <div className="book-show">
-    <div>{showEdit ? <BookEdit /> : <h3>{book.title}</h3>}</div>
+    <div>{showEdit ? <BookEdit book={book} /> : <h3>{book.title}</h3>}</div>
     <div className="actions">
       <button className="edit" onClick={handleEditClick}>
         Edit
