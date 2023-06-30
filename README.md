@@ -16,6 +16,7 @@ This project was developed following Udemy's "[Modern React with Redux](https://
 - [React](https://reactjs.org/)
 - [Redux](https://redux.js.org/)
 - [Node.js](https://nodejs.org/en/)
+- [Bulma](https://bulma.io/)
 
 ## :scroll: Requirements
 
