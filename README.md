@@ -80,4 +80,3 @@ Please make sure to update tests as appropriate. -->
 ---
 
 > @ Generated with [ShubcoGen Template™](https://github.com/filipe1309/shubcogen-template)   
-> ❓ [Docs](./.shub/README.md)
