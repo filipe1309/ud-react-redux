@@ -18,6 +18,10 @@ function BookShow({ book, onDeleteBookById, onEditBookById }) {
   }
 
   return <div className="book-show">
+    <img 
+      src={`https://picsum.photos/seed/${book.id}/200/300`}
+      alt="books"
+    />
     <div>{
       showEdit 
       ? <BookEdit book={book} onSubmit={handleSubmit} /> 

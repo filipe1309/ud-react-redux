@@ -100,4 +100,8 @@ go away.
 npm install --save-dev @babel/plugin-proposal-private-property-in-object --legacy-peer-deps
 ```
 
+## Section 6 - How to Handle Forms
+
 https://state-updates.vercel.app/
+
+https://picsum.photos/
