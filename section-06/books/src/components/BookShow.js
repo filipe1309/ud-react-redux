@@ -12,14 +12,15 @@ function BookShow({ book, onDeleteBookById, onEditBookById }) {
     setShowEdit(!showEdit);
   }
 
-  const handleSubmit = () => {
+  const handleSubmit = (id, title) => {
+    onEditBookById(id, title);
     setShowEdit(false);
   }
 
   return <div className="book-show">
     <div>{
       showEdit 
-      ? <BookEdit book={book} onEditBookById={onEditBookById} onSubmit={handleSubmit} /> 
+      ? <BookEdit book={book} onSubmit={handleSubmit} /> 
       : <h3>{book.title}</h3>
     }</div>
     <div className="actions">
