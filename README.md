@@ -40,11 +40,17 @@ npm install
 
 ## :runner: Running
 
+Main application:
 ```sh
 npm start
 ```
-
 > Access http://localhost:3000
+
+JSON Server API:
+```sh
+npm run server
+```
+> Access http://localhost:3001
 
 <!-- ## :white_check_mark: Tests
 

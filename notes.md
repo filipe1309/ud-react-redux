@@ -108,6 +108,14 @@ https://picsum.photos/
 
 ## Section 7 - Data Persistence with API Requests
 
+JSON Server:
 ```sh
 npm i json-server
 ```
+
+```sh
+npm run server
+```
+
+Rest Client VSCode Extension:
+https://marketplace.visualstudio.com/items?itemName=humao.rest-client
