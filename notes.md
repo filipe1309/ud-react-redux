@@ -105,3 +105,9 @@ npm install --save-dev @babel/plugin-proposal-private-property-in-object --legac
 https://state-updates.vercel.app/
 
 https://picsum.photos/
+
+## Section 7 - Data Persistence with API Requests
+
+```sh
+npm i json-server
+```

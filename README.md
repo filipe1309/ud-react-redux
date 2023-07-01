@@ -17,6 +17,7 @@ This project was developed following Udemy's "[Modern React with Redux](https://
 - [Redux](https://redux.js.org/)
 - [Node.js](https://nodejs.org/en/)
 - [Bulma](https://bulma.io/)
+- [JSON Server](https://www.npmjs.com/package/json-server)
 
 ## :scroll: Requirements
 
