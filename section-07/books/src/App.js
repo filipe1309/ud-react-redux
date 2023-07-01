@@ -15,7 +15,8 @@ function App() {
     fetchBooks();
   }, []);
 
-  const handleDeleteBookById = (id) => {
+  const handleDeleteBookById = async (id) => {
+    await axios.delete(`http://localhost:3001/books/${id}`);
     setBooks(books.filter(book => book.id !== id));
   }
 
