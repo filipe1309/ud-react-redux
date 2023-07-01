@@ -123,3 +123,6 @@ https://marketplace.visualstudio.com/items?itemName=humao.rest-client
 ```sh
 npm i axios
 ```
+
+### useEffect
+https://codepen.io/sgrider/pen/BarEowz
