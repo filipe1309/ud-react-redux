@@ -1,3 +1,4 @@
+import axios from 'axios';
 import { useState } from 'react';
 import BookCreate from './components/BookCreate';
 import BookList from './components/BookList';
@@ -9,11 +10,9 @@ function App() {
     setBooks(books.filter(book => book.id !== id));
   }
 
-  const handleCreateBook = (title) => {
-    const newBook = { 
-      id: Math.round(Math.random() * 9999), 
-      title 
-    };
+  const handleCreateBook = async (title) => {
+    const response = await axios.post('http://localhost:3001/books', { title });
+    const newBook = response.data;
     setBooks([...books, newBook]);
   }
 
