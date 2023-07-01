@@ -119,3 +119,7 @@ npm run server
 
 Rest Client VSCode Extension:
 https://marketplace.visualstudio.com/items?itemName=humao.rest-client
+
+```sh
+npm i axios
+```
