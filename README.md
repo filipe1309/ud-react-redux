@@ -14,6 +14,7 @@ This project was developed following Udemy's "[Modern React with Redux](https://
 ## :computer: Technologies
 
 - [React](https://reactjs.org/)
+- [Create React App](https://create-react-app.dev/)
 - [Redux](https://redux.js.org/)
 - [Node.js](https://nodejs.org/en/)
 - [Bulma](https://bulma.io/)
