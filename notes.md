@@ -126,3 +126,25 @@ npm i axios
 
 ### useEffect
 https://codepen.io/sgrider/pen/BarEowz
+
+
+## Section 9 - Deep Dive into Hooks
+
+https://codesandbox.io/s/hungry-fog-0ev1ec
+
+```js
+import { useState } from "react";
+
+function App() {
+  const [counter, setCounter] = useState(0);
+
+  return (
+    <div>
+      <button onClick={() => setCounter(counter + 1)}>+ Increment</button>
+      <div>Count: {counter}</div>
+    </div>
+  );
+}
+
+export default App;
+```
