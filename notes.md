@@ -148,3 +148,44 @@ function App() {
 
 export default App;
 ```
+
+```js
+useEffect(() => {
+    // this is bad
+    document.body.onclick = () => {
+        console.log(counter)
+    }
+}, [counter])
+```
+
+```js
+useEffect(() => {
+    // this is bad
+    document.body.onclick = () => {
+        console.log(counter)
+    }
+
+    // useful for cleanup, it runs before the next effect
+    const cleanup = () => {
+        document.body.onclick = null
+    }
+
+    return cleanup
+}, [counter])
+```
+
+
+```js
+useEffect(() => {
+    const listener = () => {
+        console.log(counter)
+    }
+
+    document.body.addEventListener('click', listener)
+
+    // useful for cleanup, it runs before the next effect
+    return () => {
+        document.body.removeEventListener('click', listener)
+    }
+}, [counter])
+```
