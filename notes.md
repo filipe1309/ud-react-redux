@@ -189,3 +189,18 @@ useEffect(() => {
     }
 }, [counter])
 ```
+
+## Section 10 - Custom Navigation and Routing Systems
+
+```sh
+npx create-react-app comps
+```
+
+```sh
+cd comps
+```
+
+```sh
+npm install --save-dev @babel/plugin-proposal-private-property-in-object --legacy-peer-deps
+```
+
