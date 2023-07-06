@@ -1,7 +1,13 @@
+import Button from './/Button';
+
 function App() {
   return (
     <div>
-      <h1>App</h1>
+      <div><Button /></div>
+      <div><Button /></div>
+      <div><Button /></div>
+      <div><Button /></div>
+      <div><Button /></div>
     </div>
   );
 }
