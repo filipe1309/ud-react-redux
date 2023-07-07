@@ -204,3 +204,13 @@ cd comps
 npm install --save-dev @babel/plugin-proposal-private-property-in-object --legacy-peer-deps
 ```
 
+https://tailwindcss.com/docs/guides/create-react-app
+
+```sh
+npm install -D tailwindcss
+```
+
+```sh
+npx tailwindcss init
+```
+
