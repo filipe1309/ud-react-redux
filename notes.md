@@ -214,3 +214,8 @@ npm install -D tailwindcss
 npx tailwindcss init
 ```
 
+https://www.npmjs.com/package/classnames
+
+```sh
+npm install classnames
+```
