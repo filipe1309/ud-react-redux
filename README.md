@@ -41,13 +41,33 @@ npm install
 
 ## :runner: Running
 
+
+### With Makefile
+
+```sh
+make run section=SECTION_NUMBER
+```
+> Example: `make run section=03`
+
+### Manually
+
+Enter the section folder:
+```sh
+cd section-SECTION_NUMBER
+```
+
+Enter the app folder:
+```sh
+cd app
+```
+
 Main application:
 ```sh
 npm start
 ```
 > Access http://localhost:3000
 
-JSON Server API:
+JSON Server API (sections 7, 8 && 9):
 ```sh
 npm run server
 ```
