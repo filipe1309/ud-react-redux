@@ -14,7 +14,7 @@ function App() {
   return (
     <div>
       <div>
-        <Button primary rounded outline onClick={handleClick}>
+        <Button primary rounded outline onClick={handleClick} className="mb-5" >
         <GoBell />
         Primary
         </Button>
