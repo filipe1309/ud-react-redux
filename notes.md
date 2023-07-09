@@ -219,3 +219,9 @@ https://www.npmjs.com/package/classnames
 ```sh
 npm install classnames
 ```
+
+https://react-icons.github.io/react-icons/
+
+```sh
+npm install react-icons
+```
