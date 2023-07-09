@@ -3,11 +3,11 @@ import Button from './/Button';
 function App() {
   return (
     <div>
-      <div><Button success >Click me 1!</Button></div>
-      <div><Button>Click me 2!</Button></div>
-      <div><Button>Click me 3!</Button></div>
-      <div><Button>Click me 4!</Button></div>
-      <div><Button>Click me 5!</Button></div>
+      <div><Button primary rounded outline>Primary</Button></div>
+      <div><Button secondary>Secondary</Button></div>
+      <div><Button success outline>Success</Button></div>
+      <div><Button warning>Warning</Button></div>
+      <div><Button danger rounded>Danger</Button></div>
     </div>
   );
 }
