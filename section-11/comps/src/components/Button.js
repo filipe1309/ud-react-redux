@@ -31,7 +31,7 @@ function Button({
 }
 
 Button.propTypes = {
-  children: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
   checkVariationValue: ({ primary, secondary, success, warning, danger }) => {
     const count = Number(!!primary) + Number(!!secondary) + Number(!!success) 
       + Number(!!warning) + Number(!!danger);
