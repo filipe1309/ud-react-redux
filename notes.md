@@ -375,3 +375,27 @@ Preliminary Design
   - Does any component besides Accordion reasonably need to know which item is expanded?
     - Yes: Define in App
     - No: Define in Accordion -> Choosed option
+
+
+JS Boolean Expressions
+
+`||` gives back the first value that is truthy
+
+```js
+100 || 200; // 100
+0 || 200; // 200
+false || 200; // 200
+null || 200; // 200
+```
+
+`&&` gives back the first value that is falsy OR the last value that is truthy
+
+```js
+100 && 200; // 200
+0 && 200; // 0
+false && 200; // false
+null && 200; // null
+```
+
+React doesn't render booleans, null, or undefined
+
