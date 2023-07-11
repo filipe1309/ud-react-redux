@@ -257,7 +257,7 @@ Where's it defined?
 ##### Accordion
 
 1. How would a user describe using this app step by step?
-> Context: User sees a list of 3 items, and the first item is expanded
+> Context: User sees a list of 3 items, and the first item is expanded  
     - User clicks on item #3
     - Item #1 is collapsed
     - Item #3 is expanded
@@ -301,7 +301,7 @@ Where's it defined?
         - #3 item: Collapsed
 
 6. Repeat #4 and #5 with a different variation
-> Context: User sees a list of 3 items, and the third item is expanded
+> Context: User sees a list of 3 items, and the third item is expanded  
     - 4. Look at mockup. Remove or simplify parts that aren't changing
         - Remove section title
         - Remove section content
@@ -365,6 +365,7 @@ myFunction(propsItems, 2); // ['Collapsed', 'Collapsed', 'Expanded']
 ```
 
 Preliminary Design
+
 - User clicks on a section header                 -> Event handler
 - A section is expanded, all others are collapsed -> State -> expandedIndex -> number
 
