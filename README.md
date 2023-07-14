@@ -48,6 +48,7 @@ npm install
 make run section=SECTION_NUMBER
 ```
 > Example: `make run section=03`
+> Access http://localhost:3000
 
 ### Manually
 
